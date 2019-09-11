@@ -65,4 +65,4 @@ This full access policy is just for learning purpose. Instead of using cognito, 
 
 
 See the final result in this video:
-![https://www.youtube.com/watch?v=6JpdiN9AOgA](https://www.youtube.com/watch?v=6JpdiN9AOgA)
+[![Watch the video](video.PNG)](https://www.youtube.com/watch?v=6JpdiN9AOgA)
