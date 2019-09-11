@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://sdk.amazonaws.com/js/aws-sdk-2.7.16.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+      <table border = 1>
+          <td>
+              <table border = 1>
+                  <caption>Information I need</caption>
+                  <td><input id="scanTime" type="button" value="Scan" onclick="scanTime();" /></td>
+              </table>
+          </td>
+      </table>
+
+
+    <textarea readonly id= "textarea" style="width:400px; height:400px"></textarea>
+
+    <br>
+
+<div class="container">
+      <br>
+      <div class="jumbotron text-center">
+        <h1>Temperature & Humidity Dashboard</h1>
+        <p class="lead">Example of IoT Project</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <canvas id="temperaturegraph" class="inner cover" width="500" height="320"></canvas>
+        </div>
+        <div class="col-md-6">
+          <canvas id="humiditygraph" class="inner cover" width="500" height="320"></canvas>
+        </div>
+      </div>
+<br>
+<br>
+  <footer class="footer">
+        <p  class="text-center">TFG Project Ricardo Boriba Makuere</p>
+  </footer>
+
+
+
+
+
+    <script type="text/javascript" src="practicas.js"></script>
+    </body>
+</html>
