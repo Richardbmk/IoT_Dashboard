@@ -63,3 +63,6 @@ This full access policy is just for learning purpose. Instead of using cognito, 
     * https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.JavaScript.html
     * https://hackernoon.com/building-an-iot-dashboard-using-the-onion-omega-and-amazon-aws-a3520f850c9
 
+
+See the final result in this video:
+![https://www.youtube.com/watch?v=6JpdiN9AOgA](https://www.youtube.com/watch?v=6JpdiN9AOgA)
